@@ -1,0 +1,245 @@
+:root
+{
+    --color-primario:#DFDF7D;
+    --fuente-primaria: "Ibarra Real Nova", serif;
+}
+header
+{
+    width: 100%;
+}
+.Portada{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 7rem auto;
+    background-image: url(/Practicas/SWAN/Swan/Imagenes/Anillo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 33rem;
+}
+.contenedorheader
+{
+    grid-row: 1/1;
+    grid-column: 1/3 ;
+    grid-template-columns: 40rem auto;
+    display: grid;
+    border-radius: 0.2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: rgba(223, 223, 125, 0.6);
+    box-shadow: 0px 10px 60px #ffff1999
+}
+a
+{
+    text-decoration: none;
+}
+.Titulo
+{
+    grid-row: 1/1;
+    height: 40px;
+    color: #ffffff ;
+}
+.Titulo h1
+{
+    font-family: var(--fuente-primaria);
+    font-weight: weight;
+    font-style: normal;
+    font-size: 72px;
+    margin-top: 20px;
+}
+.Nav
+{
+    grid-row: 2/2;
+    grid-column: 2/2 ;
+    display: flex;
+    -ms-flex-align: right;
+    text-align: right;
+    justify-content: space-around;
+    font-size: 30px;
+    gap: 20px;
+    padding: 5px;
+    font-family: var(--fuente-primaria);
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+}
+.Slogan span
+{
+    font-size: 1.3rem;
+    text-shadow:
+    1px 1px 0  #dcf840,
+   -1px -1px 0 #A3A92B,
+    1px -1px 0 #A3A92B,
+   -1px  1px 0 #A3A92B;
+}
+.Slogan
+{
+
+    grid-row: 2/3;
+    grid-column: 2/5 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: left;
+    width: 30rem;
+    font-size: 33px;
+    font-family:"Homenaje",sans-serif;
+    color:#ffffff;
+    z-index: 2;
+    position: relative;
+}
+.Nav a
+{
+    color: #ffffff;
+}
+.sobre
+{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Info
+{
+    font-size: 33px;
+    width: 35rem;
+    padding-left: 2rem;
+    font-family: var(--fuente-primaria);
+}
+.Logo
+{
+    width: 12rem;
+    height: 12rem;
+}
+.Mision
+{
+    display: grid;
+    font-family: "Homenaje", sans-serif;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    background-color: #D9D9D9;
+}
+.Mision h3
+{
+    font-size: 3rem;
+    font-family: var(--fuente-primaria);
+    
+}
+.Mision span
+{
+    font-family: var(--fuente-primaria);
+    color: #796925;
+    font-size: 2rem;
+}
+.Elemento p
+{
+    font-size: 1.7rem;
+}
+.Elemento
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 38rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.SLI img
+{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+}
+.SLI div
+{
+    text-align: center;
+}
+.SWAN
+{
+    padding-top: 5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #635938;
+    color: white;
+}
+footer img
+{
+    width: 4rem;
+    height: 4rem;
+}
+.linea
+{
+    width: 500px;  /* Grosor de la línea */
+    height: 3px;  /* Altura de la línea */
+    background-color: rgb(250, 250, 250);  /* Color de la línea */
+    margin: 20px;  /* Espacio alrededor de la línea opcional */
+}
+.redes
+{
+    display: flex;
+    flex-direction: row;
+}
+.CONTENEDOR
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.BENEFICIOS
+{
+    color: white;
+    width: 25rem;
+    font-family: var(--fuente-primaria);
+}
+.BENEFICIOS p
+{
+    font-size: 2rem;
+}
+.Registro
+{
+    font-family: "Homenaje",sans-serif;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 25rem;
+    width: 20rem;
+    background-color:rgba(223, 223, 125, 0.4);
+    color: white;
+    border-radius: 1rem;
+}
+.Registro h1
+{
+    font-size: 3rem;
+}
+fieldset label
+{
+    font-family: "Homenaje",sans-serif;
+    font-size: 1rem;
+}
+.campo
+{
+    display: flex;
+    flex-direction: column;
+}
+.campo input
+{
+    border-radius: 0.2rem;
+    border-style: none;
+    font-size: 2rem;
+}
+.alinear
+{
+    text-align: center;
+    padding-top: 0.5rem;
+}
